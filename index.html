@@ -3,13 +3,20 @@
 <head>
     <title>Ye Wang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="res/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="res/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="res/favicon/favicon-16x16.png">
+    <link rel="manifest" href="res/favicon/site.webmanifest">
+    <link rel="mask-icon" href="res/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body>
   <nav>
-    <i class="fas fa-file-pdf" style="font-size:36px;"></i><a href="ye_resume.pdf" target="_blank">
+    <i class="fas fa-file-pdf" style="font-size:36px;"></i><a href="res/ye_resume.pdf" target="_blank">
     Resume</a>&nbsp;
     <i class="fab fa-github" style="font-size:36px;"></i> <a href="https://github.com/ywang0811" target="_blank">
     GitHub</a>&nbsp;
@@ -18,21 +25,26 @@
     <i class="fas fa-envelope" style="font-size:36px;"></i><a href="mailto:ywang718@fordham.edu">ywang718@fordham.edu</a>    
   </nav>
 	<header>
-    <!-- <img src = "mug.JPG" width="20%" height=" 20%"> -->
+    <img src = "res/myAvatar.png" alt="Ye Avatar">
+    <h1>Welcome To My World</h1>
+    <p>
+      <a href = "https://www.linkedin.com/in/yewang0811" target="_blank">by Ye Wang</a>
+    </p>
 	</header>
   <div class="container">
     <h1>TL;DR &nbsp;
-    <a href="ye_resume.pdf">Resume</a>
+    <a href="res/ye_resume.pdf">Resume</a>
     <span>Ye Wang &#29579;&#20063;</span>
     </h1>
     <div>
       <h2>Overview</h2>
-      <p>Hi there! Welcome to my page<sub> beta</sub>!</p>
-      <p>So... How can I begin? </p>
+      <p>Hi there! Welcome to my page!</p>
       <p>I am a computer science master student studying at Fordham University, expected to graduate in Dec, 2018.</p>
-      <p>Coding is my passion. I spend most of my free time coding. I code mainly in Java, Python, JavaScript and currently picking up Go and Swift.</p>
-      <p>I am a decent full stack developer, most familiar with deploying <!-- (建构) --> and constructing website under Java environment and its frameworks, such as Spring, Hibernate. But I can also work with Python frameworks, such as Django. I am also involved in mobile app development.</p>
-      <p>Bored hearing me talking? See quick links below: </p>
+      <p>Coding is my passion. I spend most of my free time either studying algorithms or building up projects. <b>Java</b> is my primary language, 
+        but I am also comfortable with Python, Go and JavaScript (check out my projects on GitHub).</p>
+      <p>I have experience in full stack development, most familiar with constructing and deploying website under Java environment using LAMP stack.  
+        My past projects involves using Java frameworks such as <b>Spring</b>, <b>Hibernate</b>. In addition, working on Go and Python (especially Django) are also comes handy for me.</p>
+      <p>Bored already? See quick links below: </p>
       <div>
         <span><a href="#timeline">Timeline</a></span>&nbsp;&nbsp;
         <span><a href="#bio">Bio</a></span>&nbsp;&nbsp;
@@ -146,12 +158,14 @@
           <li>Crawled real time stock options data, preprocessed, cleaned and classified the data set.</li>
           <li>Integrated machine learning models system including KNN, Random Forest, SVM and Gradient Boost to predict implied volatility&apos;s behavior under each individual model and evaluated their performances.</li>
         </ul>
-        <h4><a href="www.github.com">Weather Reminder Mini App</a></h4>
+        <h4><a href="https://github.com/ywang0811/Nearby">Nearby</a><p>a social network website based on Geo-Index</p></h4>
+        <h5></h5>
         <ul>
-          <li>Created a web application that reminds users about weather and temperature changes based on users&apos;zipcodes</li>
-          <li>Used Django as the backend and OpenWeatherMap API to get information.</li>
+          <li>Built a scalable web application in Go as BackEnd to handle posts and deployed to Google Cloud (GAE flex) for future scaling</li>
+          <li>Utlized ElasticSearch (GCE) to provide geo-location based search functions such that users can search nearby posts within a distance (e.g. 200km)</li>
+          <li>Implemented basic token based registration/login/logout flow with React Router v4 and server-side user authentication with JWT. </li>
         </ul>
-        <p>(Between you and me, I am having a productive summer, more meaningful projects to come.)</p>
+        
     </div>
   <div id="skill">
     <h2>Skill</h2>
