@@ -75,7 +75,7 @@ header a:hover {
   max-width: 50em;
   line-height: 1.5;
   padding: 4em 1em;
-  color: #555;
+  color: rgb(0, 0, 0);
 }
 
 h1 > span{
